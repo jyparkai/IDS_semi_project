@@ -1,51 +1,12 @@
-# IDS_semi_project
 <div align="center">
 
-### `CYBER SECURITY // AI SECURITY // RESEARCH`
+<img src="./assets/banner.svg" width="100%">
 
-```text
-╔══════════════════════════════════════════════════════════════╗
-║                                                              ║
-║                 C Y B E R   O P E R A T I O N S              ║
-║                                                              ║
-║                                                              ║
-║                                                              ║
-║            SECURITY RESEARCH / ENGINEERING                   ║
-║                                                              ║
-║        DETECT  •  ANALYZE  •  HARDEN  •  DEFEND              ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
-```
+<br><br>
 
-`[ NETWORK SECURITY ]` ` [ INTRUSION DETECTION ]` ` [ AI SECURITY ]`
+<img src="./assets/boot.gif" width="850">
 
 </div>
-
----
-
-# `// SYSTEM INITIALIZATION`
-
-```text
-root@jypark:~$ ./initialize_security_profile
-
-[✓] Loading security modules................. DONE
-[✓] Network security......................... ONLINE
-[✓] Intrusion detection..................... ACTIVE
-[✓] Linux security.......................... ACTIVE
-[✓] AI security............................. RESEARCH
-[✓] Cryptography............................ RESEARCH
-
-[✓] Initializing research environment........ DONE
-[✓] Initializing threat analysis............. DONE
-
-──────────────────────────────────────────────────────────────
-
-SYSTEM STATUS      : ONLINE
-THREAT LEVEL       : LOW
-SECURITY POSTURE   : ACTIVE
-
-root@jypark:~$ _
-```
 
 ---
 
@@ -54,22 +15,34 @@ root@jypark:~$ _
 ```text
 ┌──────────────────────────────────────────────────────────────┐
 │                                                              │
-│  NAME        : JY PARK                                      │
-│  ROLE        : SECURITY RESEARCHER / ENGINEER               │
-│  STATUS      : ACTIVE                                       │
+│  NAME        : INVALID                                       │
+│  ROLE        : SECURITY RESEARCHER / ENGINEER                │
+│  STATUS      : ACTIVE                                        │
 │                                                              │
-│  PRIMARY FOCUS                                             │
-│  ├── Network Security                                      │
-│  ├── Intrusion Detection                                   │
-│  ├── Linux / System Security                                │
-│  ├── AI Security                                            │
-│  └── Cryptography / PQC                                    │
+│  PRIMARY OPERATIONS                                          │
 │                                                              │
-│  MISSION                                                    │
-│  Build systems that detect, analyze and defend against      │
-│  emerging security threats.                                 │
+│  ├── NETWORK SECURITY                                        │
+│  ├── INTRUSION DETECTION                                     │
+│  ├── LINUX / SYSTEM SECURITY                                 │
+│  ├── AI SECURITY                                             │
+│  └── CRYPTOGRAPHY / PQC                                      │
 │                                                              │
 └──────────────────────────────────────────────────────────────┘
+```
+
+---
+
+# `// SYSTEM STATUS`
+
+```text
+NETWORK SECURITY      [████████████████████] ACTIVE
+INTRUSION DETECTION   [████████████████████] ACTIVE
+LINUX SECURITY        [██████████████████░░] ACTIVE
+AI SECURITY           [████████████░░░░░░░░] RESEARCH
+CRYPTOGRAPHY          [██████████░░░░░░░░░░] RESEARCH
+
+THREAT LEVEL          [ LOW ]
+SYSTEM STATUS         [ ONLINE ]
 ```
 
 ---
@@ -81,24 +54,25 @@ root@jypark:~$ _
 > **Intrusion Detection System**
 
 ```text
-STATUS      : ACTIVE
-CLASS       : NETWORK SECURITY
-MISSION     : THREAT DETECTION
-
-[ NETWORK TRAFFIC ]
-        ↓
-[ PACKET COLLECTION ]
-        ↓
-[ TRAFFIC ANALYSIS ]
-        ↓
-[ DETECTION ENGINE ]
-        ↓
-[ SECURITY ALERT ]
-        ↓
-[ INCIDENT LOGGING ]
+NETWORK
+   │
+   ▼
+PACKET COLLECTOR
+   │
+   ▼
+TRAFFIC ANALYSIS
+   │
+   ▼
+DETECTION ENGINE
+   │
+   ▼
+SECURITY ALERT
+   │
+   ▼
+INCIDENT LOG
 ```
 
-**Capabilities**
+### Capabilities
 
 * TCP Port Scan Detection
 * Brute Force Detection
@@ -111,28 +85,26 @@ MISSION     : THREAT DETECTION
 
 `Python` `Linux` `TCP/IP` `Packet Analysis` `IDS`
 
-→ [`ACCESS OPERATION`](https://github.com/)
-
 ---
 
 ## `OPERATION 002` — BLACKBOX
 
-> **Linux Security & Hardening Laboratory**
+> **Linux Security Laboratory**
 
 ```text
-STATUS      : ACTIVE
-CLASS       : SYSTEM SECURITY
-MISSION     : HARDEN / MONITOR / DEFEND
-
-[ LINUX SERVER ]
-        ↓
-[ LOG COLLECTION ]
-        ↓
-[ SYSTEM MONITORING ]
-        ↓
-[ SECURITY ANALYSIS ]
-        ↓
-[ HARDENING ]
+LINUX SERVER
+     │
+     ▼
+LOG COLLECTION
+     │
+     ▼
+SYSTEM MONITORING
+     │
+     ▼
+SECURITY ANALYSIS
+     │
+     ▼
+HARDENING
 ```
 
 **Focus**
@@ -147,8 +119,6 @@ MISSION     : HARDEN / MONITOR / DEFEND
 
 `Linux` `Bash` `Python` `Docker`
 
-→ [`ACCESS OPERATION`](https://github.com/)
-
 ---
 
 ## `OPERATION 003` — NETRA
@@ -156,24 +126,13 @@ MISSION     : HARDEN / MONITOR / DEFEND
 > **Network Security Laboratory**
 
 ```text
-STATUS      : ACTIVE
-CLASS       : NETWORK SECURITY
-MISSION     : UNDERSTAND THE NETWORK
-
-DNS
- │
- ├── Domain Resolution
- │
- ├── Name Server
- │
- └── Zone Transfer
-
 NETWORK
- │
- ├── VLAN
- ├── Routing
- ├── OSPF
- └── TCP/IP
+   │
+   ├── TCP/IP
+   ├── DNS
+   ├── VLAN
+   ├── ROUTING
+   └── PACKET ANALYSIS
 ```
 
 **Focus**
@@ -186,67 +145,39 @@ NETWORK
 
 **Stack**
 
-`Cisco` `Linux` `DNS` `TCP/IP` `Wireshark`
-
-→ [`ACCESS OPERATION`](https://github.com/)
+`Linux` `Cisco` `DNS` `TCP/IP` `Wireshark`
 
 ---
 
 # `// ARSENAL`
 
-### `LANGUAGES`
+### LANGUAGES
 
 `Python` `Bash` `SQL` `C/C++`
 
-### `SYSTEM`
+### SYSTEM
 
 `Linux` `Docker` `Git`
 
-### `NETWORK`
+### NETWORK
 
 `TCP/IP` `DNS` `VLAN` `Routing` `Wireshark`
 
-### `SECURITY`
+### SECURITY
 
-`IDS` `Network Security` `System Security` `Security Monitoring`
+`IDS` `Network Security` `System Security`
 
-### `AI / RESEARCH`
+### AI / RESEARCH
 
 `PyTorch` `Transformers` `Computer Vision` `AI Security`
 
-### `CRYPTOGRAPHY`
+### CRYPTOGRAPHY
 
 `Cryptography` `Post-Quantum Cryptography`
 
 ---
 
-# `// THREAT MONITOR`
-
-```text
-┌──────────────────────────────────────────────────────────────┐
-│                     THREAT MONITOR                           │
-├──────────────────────────────────────────────────────────────┤
-│                                                              │
-│  NETWORK SECURITY      ████████████████████  ACTIVE          │
-│  INTRUSION DETECTION   ████████████████████  ACTIVE          │
-│  LINUX SECURITY        ██████████████████░░  ACTIVE          │
-│  AI SECURITY            ████████████░░░░░░  RESEARCH        │
-│  CRYPTOGRAPHY           ██████████░░░░░░░░  RESEARCH        │
-│                                                              │
-├──────────────────────────────────────────────────────────────┤
-│                                                              │
-│  CURRENT THREAT LEVEL :                                    │
-│                                                              │
-│                    [ LOW ]                                   │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
-```
-
----
-
 # `// CLASSIFIED FILES`
-
-Security knowledge is documented through experiments, research and system analysis.
 
 ```text
 [FILE-001]  NETWORK INTRUSION DETECTION
@@ -258,11 +189,11 @@ Security knowledge is documented through experiments, research and system analys
 [FILE-007]  POST-QUANTUM CRYPTOGRAPHY
 ```
 
-> **Research → Experiment → Detection → Defense**
+> RESEARCH → EXPERIMENT → DETECTION → DEFENSE
 
 ---
 
-# `// RESEARCH INTERESTS`
+# `// RESEARCH DIVISION`
 
 ```text
                     SECURITY
@@ -270,7 +201,6 @@ Security knowledge is documented through experiments, research and system analys
           ┌────────────┼────────────┐
           │            │            │
        NETWORK        SYSTEM        AI
-          │            │            │
           │            │            │
          IDS       HARDENING    AI SECURITY
           │            │            │
@@ -281,7 +211,7 @@ Security knowledge is documented through experiments, research and system analys
                       PQC
 ```
 
-### Current Direction
+### Current Research
 
 * Intelligent Intrusion Detection
 * AI System Security
@@ -292,49 +222,25 @@ Security knowledge is documented through experiments, research and system analys
 
 ---
 
-# `// SECURITY PHILOSOPHY`
-
-```text
-┌──────────────────────────────────────────────────────────────┐
-│                                                              │
-│  01  ASSUME                                                │
-│      Every system can eventually be attacked.               │
-│                                                              │
-│  02  OBSERVE                                               │
-│      Visibility comes before detection.                     │
-│                                                              │
-│  03  DETECT                                                │
-│      Identify abnormal and malicious behavior.              │
-│                                                              │
-│  04  ANALYZE                                               │
-│      Turn events into actionable intelligence.              │
-│                                                              │
-│  05  DEFEND                                                │
-│      Build systems that become harder to compromise.        │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
-```
-
----
-
 # `// OPERATION LOG`
 
 ```text
-2026 ─────────────────────────────────────────────────────────
+2026 ─────────────────────────────────────────────
 
-[08] Network Security
-     └── IDS Development
+[08] NETWORK SECURITY
+     └── IDS DEVELOPMENT
 
-[08] Linux Security
-     └── Server / Network Laboratory
+[08] LINUX SECURITY
+     └── SERVER / NETWORK LABORATORY
 
-[08] AI Security
-     └── Security Research
+[08] AI SECURITY
+     └── SECURITY RESEARCH
 
-[08] Cryptography
-     └── PQC Research
+[08] CRYPTOGRAPHY
+     └── PQC RESEARCH
 
-──────────────────────────────────────────────────────────────
+──────────────────────────────────────────────────
+
 STATUS : CONTINUOUS DEVELOPMENT
 ```
 
@@ -344,13 +250,9 @@ STATUS : CONTINUOUS DEVELOPMENT
 
 ```text
 [██████████████████████████] NETWORK SECURITY
-
 [██████████████████████░░░░] IDS DEVELOPMENT
-
 [████████████████░░░░░░░░░░] LINUX SECURITY
-
 [████████████░░░░░░░░░░░░░░] AI SECURITY
-
 [████████░░░░░░░░░░░░░░░░░░] PQC
 ```
 
@@ -369,9 +271,11 @@ NEXT TARGET
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME\&show_icons=true\&theme=dark\&hide_border=true)
+<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=dark&hide_border=true">
 
-![GitHub Streak](https://streak-stats.demolab.com?user=YOUR_USERNAME\&theme=dark\&hide_border=true)
+<br>
+
+<img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=dark&hide_border=true">
 
 </div>
 
@@ -382,10 +286,10 @@ NEXT TARGET
 ```text
 ┌──────────────────────────────────────────────────────────────┐
 │                                                              │
-│  GITHUB      : github.com/YOUR_USERNAME                      │
-│  EMAIL       : YOUR_EMAIL                                    │
+│  GITHUB      : INVALID                                       │
+│  EMAIL       : INVALID                                       │
 │                                                              │
-│  STATUS      : OPEN TO RESEARCH / SECURITY PROJECTS          │
+│  STATUS      : OPEN TO SECURITY / RESEARCH PROJECTS          │
 │                                                              │
 └──────────────────────────────────────────────────────────────┘
 ```
