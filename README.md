@@ -13,24 +13,6 @@
 
 # `// OPERATOR`
 
-```text
-┌──────────────────────────────────────────────────────────────┐
-│                                                              │
-│  NAME        : INVALID                                       │
-│  ROLE        : SECURITY RESEARCHER / ENGINEER                │
-│  STATUS      : ACTIVE                                        │
-│                                                              │
-│  PRIMARY OPERATIONS                                          │
-│                                                              │
-│  ├── NETWORK SECURITY                                        │
-│  ├── INTRUSION DETECTION                                     │
-│  ├── LINUX / SYSTEM SECURITY                                 │
-│  ├── AI SECURITY                                             │
-│  └── CRYPTOGRAPHY / PQC                                      │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
-```
-
 ---
 
 # `// SYSTEM STATUS`
@@ -146,7 +128,7 @@ NETWORK
 
 **Stack**
 
-`Linux` `Cisco` `DNS` `TCP/IP` `Wireshark`
+`Linux`  `DNS` `TCP/IP` `Wireshark`
 
 ---
 
@@ -154,7 +136,7 @@ NETWORK
 
 ### LANGUAGES
 
-`Python` `Bash` `SQL` `C/C++`
+`Python` `SQL` `C/C++`
 
 ### SYSTEM
 
@@ -190,27 +172,10 @@ NETWORK
 [FILE-007]  POST-QUANTUM CRYPTOGRAPHY
 ```
 
-> RESEARCH → EXPERIMENT → DETECTION → DEFENSE
+> DETECTION → DEFENSE
 
 ---
 
-# `// RESEARCH DIVISION`
-
-```text
-                    SECURITY
-                       │
-          ┌────────────┼────────────┐
-          │            │            │
-       NETWORK        SYSTEM        AI
-          │            │            │
-         IDS       HARDENING    AI SECURITY
-          │            │            │
-          └────────────┼────────────┘
-                       │
-                  CRYPTOGRAPHY
-                       │
-                      PQC
-```
 
 ### Current Research
 
@@ -262,38 +227,10 @@ NEXT TARGET
 
 → Build stronger detection systems
 → Improve security engineering skills
-→ Connect AI with cyber defense
+→ Utilize AI with cyber defense
 → Research emerging security technologies
 ```
 
----
-
-# `// GITHUB ACTIVITY`
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=dark&hide_border=true">
-
-<br>
-
-<img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=dark&hide_border=true">
-
-</div>
-
----
-
-# `// CONTACT`
-
-```text
-┌──────────────────────────────────────────────────────────────┐
-│                                                              │
-│  GITHUB      : INVALID                                       │
-│  EMAIL       : INVALID                                       │
-│                                                              │
-│  STATUS      : OPEN TO SECURITY / RESEARCH PROJECTS          │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
-```
 
 ---
 
